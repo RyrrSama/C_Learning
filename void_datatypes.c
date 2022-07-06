@@ -24,7 +24,6 @@ int main(){
     // This can be casted to any to data type in runtime.
 
     void *null_pointer ;
-
     hello_world();
 
     return 0;    
