@@ -5,7 +5,7 @@
 // Memory will be allocated only when the varaible is declared.
 // extern will extend the visiblity of the function or varaible though out the program even to multiple files.
 // So when we use extern keyword for avarible we should decalr it to allocate the space for the varaible.
-// A varaible can be defined many time in our code.
+// A varaible can be decalarted many time in our code.but only once define in file function or block.
 
 extern int a ;
 int a;
