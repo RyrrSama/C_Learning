@@ -1,7 +1,6 @@
 #include<stdio.h>
 // Global varable:
 char username[] = "HelloWorld";
-
 /* 
 Here age is formal Parameter it is simular to local
 local varaible.
