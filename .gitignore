@@ -1,3 +1,3 @@
-./executable
-./.vscode
-./.gitignore
+/executable
+/.vscode
+/.gitignore
