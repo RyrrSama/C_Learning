@@ -9,7 +9,7 @@
 				"-fdiagnostics-color=always",
 				"${file}",
 				"-o",
-				"${fileDirname}/executables/${fileBasenameNoExtension}"
+				"${fileDirname}/executable/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
