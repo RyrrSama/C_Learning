@@ -40,7 +40,7 @@ int main(void){
    char username[] = "Ramkumar";
    printf("Local varaible takens precedence inside function: ");
    puts(username);
-   // Here formal parametr will print due to precedence
+   // Here formal parameter will print due to precedence
    print_username("Ramkumar.E");
 }
 
