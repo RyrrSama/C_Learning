@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "misc_operators": "c",
+        "stdio.h": "c"
+    }
+}

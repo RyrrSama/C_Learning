@@ -7,10 +7,9 @@
 			"command": "/usr/local/bin/gcc-12",
 			"args": [
 				"-fdiagnostics-color=always",
-				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/executables/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
