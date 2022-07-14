@@ -22,17 +22,25 @@ int find_average(int array[], int size);
 int main(void){
 
     //double balance[10];
-    //double reading[] = {0.0,11.2,34.4,56.0};
+    double reading[] = {0.0,11.2,34.4,56.0};
     //printf("%f", reading[3]);
     //print_2by2_matrix();
-    int mark_list[] = {1,2,3,4,5,6};
-    find_average(mark_list, 6);
+    //int mark_list[] = {1,2,3,4,5,6};
+    // find_average(mark_list, 6);
     // Here return is not a full array so we are creating pointer
     // We should not create a array varibel to store a array function return type
-    int *multiper_table = get_tables(4);
-    for (int index=0; index<10;index++){
-        printf("%d\n", multiper_table[index]);
+    //int *multiper_table = get_tables(4);
+    //for (int index=0; index<10;index++){
+    //    printf("%d\n", multiper_table[index]);
+    //}
+    double *p;
+    // Assigning the array address to double pointer. 
+    p=reading;
+    puts("Array values are listed below :");
+    for (int index=0; index <5;index++){
+        printf("Address of %d element = %p and value stored in %f\n",index, p+index, *(p+index) );
     }
+
     }
 
 void print_2by2_matrix(){
