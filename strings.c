@@ -27,5 +27,5 @@ int main(){
     // Null terminator to end the string
     char name[] ="Ramkumar.E";
     printf("The name of the user is : %s\n",name);
-
+    return 0;
 }
