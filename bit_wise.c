@@ -12,6 +12,7 @@
     3 can store upto 7. so we can define the range in bit format 
 * If the value lie outside of the range then the data is trancated to its max limit.
 * The size are allocate in x4 byte .
+* It works only on int data type or supported data type by bits.s
 syntax:
 struct {
     unsigned int age :4;-> Here age can hold upto 4 bit data for 0 to 64
